@@ -85,12 +85,17 @@ h1 {
 
 .deck .card.open {
     transform: rotateY(180deg);
+    transition: transform .5s;
     background: #02b3e4;
     cursor: default;
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
 }
 
 .deck .card.show {
